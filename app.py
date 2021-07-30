@@ -24,14 +24,16 @@ def get_tasks():
     tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        # check if username already exsist in db
-        existing_user = mongo.db.users.find_one({"username": request.form.get("username").lower()})
+        # check if username already exists in db
+        existing_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
 
         if existing_user:
-            flash("Username allrady exists")
+            flash("Username already exists")
             return redirect(url_for("register"))
 
         register = {
@@ -42,41 +44,46 @@ def register():
 
         # put the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
-        flash("Registeration Succesful!")
-        return redirect(url_for("profile", username=session["user"]))    
+        flash("Registration Successful!")
+        return redirect(url_for("profile", username=session["user"]))
+
     return render_template("register.html")
 
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
-    if request =="POST":
-        # check i fusername existsin db
+    if request.method == "POST":
+        # check if username exists in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
         if existing_user:
-            # ensure hase password matches user input
+            # ensure hashed password matches user input
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
-                    session["user"] = request.form.get("username").lower()
-                    flash("Welcome, {}".format(request.form.get("username")))
-                    return redirect(url_for("profile", username=session["user"]))
+                    existing_user["password"], request.form.get("password")):
+                        session["user"] = request.form.get("username").lower()
+                        flash("Welcome, {}".format(
+                            request.form.get("username")))
+                        return redirect(url_for(
+                            "profile", username=session["user"]))
             else:
                 # invalid password match
-                flash("Incorect Username and/or Password")
+                flash("Incorrect Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
-            # username dosn't exist
+            # username doesn't exist
             flash("Incorrect Username and/or Password")
-            return redirect(url_for("login"))                
+            return redirect(url_for("login"))
+
     return render_template("login.html")
 
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
     # grab the session user's username from db
-    username = mongo.db.users.find_one({"username": session["user"]})["username"]
+    username = mongo.db.users.find_one(
+        {"username": session["user"]})["username"]
 
     if session["user"]:
         return render_template("profile.html", username=username)
@@ -86,10 +93,15 @@ def profile(username):
 
 @app.route("/logout")
 def logout():
-    # remove user from session cookies
+    # remove user from session cookie
     flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
+
+
+@app.route("/add_task")
+def add_task():
+    return render_template("add_task.html")
 
 
 if __name__ == "__main__":
