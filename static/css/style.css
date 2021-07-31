@@ -14,3 +14,14 @@
     margin: 5px;
     line-height: 42px;
 }
+
+
+
+.page-footer {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: column;
+   border-bottom: 0px;
+}
+
+        
