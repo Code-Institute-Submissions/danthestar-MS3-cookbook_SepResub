@@ -15,7 +15,14 @@
     line-height: 42px;
 }
 
+.input-field col s12{
+    padding-bottom: 50px;
+}
 
+.card-panel{
+    /* margin-top: 20%;
+    margin-bottom: 20%; */
+}
 
 .page-footer {
     display: flex;
