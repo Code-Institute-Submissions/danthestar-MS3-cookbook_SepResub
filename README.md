@@ -202,9 +202,14 @@ Main colours:
   #### I'm never on same page with accessibility vote, as artist and industrial designer i 
   do some things on purpose: for visual apealing or becouse of complementary contrast;
   even though i agree that i didnt do nothing specila with visual effects, but less it always more.
+
   ![](mdimg/light3.jpg)
 
   ![](mdimg/light4.jpg)
+
+  ![](mdimg/light1improv2.jpg)
+
+    Improvment in SEO department after including <meta name="description" content="xyz"> and <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
 ### **Issues during site development**
