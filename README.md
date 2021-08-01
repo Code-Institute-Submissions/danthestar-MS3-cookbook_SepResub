@@ -2,7 +2,9 @@
 
 ### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one place.
 
-![](pic/croodstt.jpg) 
+![](mdimg/1.jpg) 
+
+###  *The live Website can be found [here.](https://danthestar.github.io/MS3-cookbook/)*
 ---
 ---
 ## **Content Tree**
@@ -114,8 +116,8 @@ Main colours:
 ### **Features Left to Implement**
 ---
 * #### **Profile page**
-  *  add more info to profile page 
-* make it more apealing to generale taste - visualy speaking
+  * add more info to profile page 
+  * make it more apealing to generale taste - visualy speaking
 ---
 ---
 ## **Technologies Used**
@@ -153,6 +155,9 @@ Main colours:
 ### **Deployment platform**
 * Heroku - As a Deployment platform.
 
+
+###  **The live Website can be found [here.](https://danthestar.github.io/MS3-cookbook/)**
+
 [Back to Content Tree](#content-tree)
 
 ---
@@ -183,7 +188,7 @@ Main colours:
 ---
 ---
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used "git commands" in Gitpod to save changes into GitHub and push site in public.
-* ###   My site is published at https://github.com/danthestar/MS2
+* ###   My site is published at https://danthestar.github.io/MS3-cookbook/
 
 
 ---
@@ -209,7 +214,9 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 
 * **jpg files** all my photos are Photoshoped after being downloaded form free source
-     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)     
+
+     *1  ![](mdimg/1.jpg)
+     *2  ![](pic/croodstt.jpg)     
 
   ## [Back to Content Tree](#content-tree) 
 
