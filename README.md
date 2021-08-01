@@ -2,9 +2,9 @@
 
 ### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one place.
 
-![](mdimg/1.jpg) 
+![](mdimg/2.jpg) 
 
-###  *The live Website can be found [here.](https://danthestar.github.io/MS3-cookbook/)*
+###  *The live Website can be found [here.](https://flask-task-manager-cookbook.herokuapp.com/login)*
 ---
 ---
 ## **Content Tree**
@@ -196,9 +196,19 @@ Main colours:
 
   I run [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool to check performance of the website. Screenshots are presented below:
 
-    SLIKEEEEEEEEEEEEEEEEEE
+  ![](mdimg/light1.jpg)
+
+  ![](mdimg/light2.jpg)
+  #### I'm never on same page with accessibility vote, as artist and industrial designer i 
+  do some things on purpose: for visual apealing or becouse of complementary contrast;
+  even though i agree that i didnt do nothing specila with visual effects, but less it always more.
+  ![](mdimg/light3.jpg)
+
+  ![](mdimg/light4.jpg)
+
   
 ### **Issues during site development**
+---
 
     Main issue is stil typo mistakes   
     Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system.
@@ -212,6 +222,7 @@ Main colours:
 ---
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used "git commands" in Gitpod to save changes into GitHub and push site in public.
 * ###   My site is published at https://danthestar.github.io/MS3-cookbook/
+* ###  *The live Website can be found [here at heroku.com](https://flask-task-manager-cookbook.herokuapp.com/login)*
 
 
 ---
@@ -225,8 +236,8 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 * **jpg files** all my photos are Photoshoped after being downloaded form free source
 
-     *1  ![](mdimg/1.jpg)
-     *2  ![](pic/croodstt.jpg)     
+    ![](mdimg/2.jpg),
+          
 
   ## [Back to Content Tree](#content-tree) 
 
