@@ -21,11 +21,9 @@
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
     - [Issues during codeing](#issues-during-coding)
-    - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
-- [Screenshot](#screenshot)
 - [Credits](#credits)
 ---
 ---
@@ -84,15 +82,11 @@ Main colours:
 
 
 ### Fonts 
-   1. Bangers = [Google Fonts Library](https://fonts.google.com/) 
-   2. sans-serif as a backup!
-   3. Verdana = as default
+   1. font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
    
 ### Images
 
 * Images from Google will be all credite in [credits](#credits) section.
-
- 
 
 [Back to Content Tree](#content-tree)
 
@@ -102,25 +96,26 @@ Main colours:
 ---
 ---
 
-### The website contains One pages. 
+### The website contains 7 pages. 
 
-### **Game page** 
-*  one page where game is centred on page, vertically and horizontally
-*  contains game window (20x20 tails) where "znake" is moving in search of "food" 
-*  the result label is in the upper right corner
-*  title name slightly above the game "Znake"
-*  reset button game for restarting the game form start it under Znake title
+#### **Home page** 
+*  page where you see all tasks donr by evrybody in family
+#### **Profile page**
+*  page where you chekc your profile 
+#### **New Taks page**
+*  page where you can add new task: pick category, add task name, add task description, pick date of task and marks it as important! 
+#### **Manage Categories page**
+*  page where you can add new cathegory for your task page 
+#### **Log Out/Log In page**
+*  page for loging out and in on MMM
 
 
 
 ### **Features Left to Implement**
-* defenetly more levels with higer speed or harder dificolty in some maners
-* some type of star scoring: so players can leav 1-5 star grade
-* it will be nice to make the same game in 3D environment
-* implement way more different context, just for practise and it will make game more hi-tech and more attractive!
-* implement score name options - leaderboard
-* make it multiplayer!!
-
+---
+* #### **Profile page**
+  *  add more info to profile page 
+* make it more apealing to generale taste - visualy speaking
 ---
 ---
 ## **Technologies Used**
@@ -133,16 +128,11 @@ Main colours:
 * CSS
 
 ### **Interactions**
-* All interactions are done by Java Script
+* JavaScript, Python+Flask, MongoDB, Heroku + CRUD functionality
 
 ### **Fonts**
-* Bangers  [Google Fonts Library](https://fonts.google.com/)  
-  
-### **Storage**
-* GitHub - As a software hosting platform to keep project in a remote location.
-
-### **Coding platform**
-* Gitpod - As a development hosting platform.
+### [Materialize](https://materializecss.com/about.html) 
+* Font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;   
 
 ### Wireframe.cc
 * Making sketches and layout of the project.
@@ -154,6 +144,14 @@ Main colours:
 * Photoshop
 * [Am i responsive](http://ami.responsivedesign.is/#)
 
+### **Storage**
+* GitHub - As a software hosting platform to keep project in a remote location.
+
+### **Coding platform**
+* Gitpod - As a development hosting platform.
+
+### **Deployment platform**
+* Heroku - As a Deployment platform.
 
 [Back to Content Tree](#content-tree)
 
@@ -163,47 +161,29 @@ Main colours:
 ---
 ---
 
-### **Functionality testing** 
-
-  * since it a simple game...
-
-
 ### **Compatibility testing**
- It was made originaly only for keyboard platform, compability testing was smooth  on all similar platforms with keyboard.
+    Works with no bugs on all my laptops and smartphones in my family and beyond, although we all have a samsung smartphone (some version and type)
 
 ### **Performance testing**
----
+
   I run [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool to check performance of the website. Screenshots are presented below:
-    
-   ![](Znake/assets/mdimg/perf1.jpg)
 
-   ![](Znake/assets/mdimg/perf2.jpg)
-* Unfortunately, PWA did not pass since i was building the game for keyboard devices only, desktop computers. 
-   
-![](Znake/assets/mdimg/perf3.jpg)
-
-### Issues during site development
----
-* To be honest, since i was following youtube video only issues was TYPO mistakes. And that usually consume a lot of time and discourages, only to eventually find that the code is good, but it has one letter of excess or missing semicolon that makes the whole code incorrectly.   
-* Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system
-
-  ![](Znake/assets/mdimg/Screenshot210.jpg)
-getting familiar how tiels and ticks work trough inspector options
-
-* New/old issues appears this morning again, this types are actually consistent during entire time working on this project.
-  * it not so bad, since it usualy last around 20-30min and then goes away, so im not sure is it lag issues, servers., one of examples below.
+    SLIKEEEEEEEEEEEEEEEEEE
   
-    ![](Znake/assets/mdimg/wierd.jpg) 
-    * sometimes can be quite progres killer, since it shows wrong inputs. And the same code doesn't work any more as it supposed to.
+### **Issues during site development**
+
+    Main issue is stil typo mistakes   
+    Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system.
 
   [Back to Content Tree](#content-tree)
+
 ---
 ---
 ## **Deployment**
 ---
 ---
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used push command in Gitpod to save changes into GitHub.
-* ###   Your site is published at https://github.com/danthestar/MS2
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used "git commands" in Gitpod to save changes into GitHub and push site in public.
+* ###   My site is published at https://github.com/danthestar/MS2
 
 
 ---
@@ -215,46 +195,25 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ### **Idea**
-* In the beginning i wasn't sure what, how or where to start: what game to make and what style to pick.
-  * after consulting my self with student suppoort and my mentor Adegbenga Adeye, i agree with them to stick to something simple
-  * so since my entire reason to start doing coding was to be able to start doing in game development or application development, snake game was best pick
-* **But since this is my first JS actual coding**, i needed a model that i can follow and understand, those bellow are some of my picks form where i was able to recreate my Znake game
-    
-  * i try my best to not use same names as the source of my code, so by doing that i hope i avoid at least some of copy/paste related issues confronting forms about violation of use someone's code
-  * and it also beneficial for me if i change all the names - so i can use more of my own thinking in order to figure it out how the code operates
-  1. [Web Dev Simplified ](https://www.youtube.com/watch?v=QTcIXok9wNY&t=27s) = How To Code The Snake Game In Javascript (code with him seams way simpler :D)
-  2. [Coding With Adam](https://www.youtube.com/watch?v=7Azlj0f9vas&t=745s) = Coding Snake in JavaScript Complete Tutorial Every Step Explained with HTML5 Canvas (i was following thi one as my main source of code)
-  3. [Franks laboratory](https://www.youtube.com/watch?v=jl29qI62XPg&t=1477s) = JavaScript 2D Game Tutorial (visual enrichment)
+    In the beginning i wasn't sure what, how or where to start: since code it self was so overwelming and still for me so hard to be abe to produce purly somehting on my own.
 
-### **Content**
-* The base for main structure in similar to structuro of [Coding With Adam](https://www.youtube.com/watch?v=7Azlj0f9vas&t=745s) from where i take mouste of it
-* Readme file inspirations are my previous md.file 
-  * [danthestar/the-mandalorian](https://github.com/danthestar/the-mandalorian/blob/master/README.md) on GitHub
-  
+    after retrying for 2 time the same taks, i decided to go with mini project = and folowing step by step, changing only stayling of it. the main core is the same as in mini project|Puting It All Togheter.
 
-### **Media**
+    So since my entire reason to start doing coding was to be able to start doing in game   development or application development, i understand know that i need allot of practice in order to master all of the interactions: JavaScript, Python+Flask, MongoDB, Heroku + CRUD functionality.
+ 
+**But since this is my first MS3**, and it way more complicated and needs way more focus i needed a model that i can follow and understand, so thats way i decided to go with mini project|Puting It All Togheter as example.
+      
+    I try my best to not use same names as the source of my code, so by doing that i hope i avoid at least some of related issues confronting forms about violation of use Plagiarism Policy.
 
-* **all others links that i have used as inspiration or understanding how can i make something:**
-   * [Web Dev Simplified ](https://www.youtube.com/watch?v=QTcIXok9wNY&t=27s) inspirations for coding development = especially in game department
-   * [Coding With Adam](https://www.youtube.com/watch?v=7Azlj0f9vas&t=745s) inspirations for coding development = especially in game department
-   * [Franks laboratory](https://www.youtube.com/watch?v=jl29qI62XPg&t=1477s) inspirations for coding development = especially in game department
-   * [KnifeCircus](https://www.youtube.com/watch?v=bG2BmmYr9NQ&t=5s) inspirations for coding development = especially in game department
+    Satying that i was still not being able to digress far form core code = it so many tiny options to make a mistake or simply typo mistakes and code isnt working again. 
+
 
 * **jpg files** all my photos are Photoshoped after being downloaded form free source
      * 1. ![](Znake/assets/mdimg/mdznake2.jpg)     
-     * 2. ![](Znake/assets/mdimg/Screenshot210.jpg)
-     * 3. ![](Znake/assets/mdimg/wierd.jpg)  
-     * 4. ![](Znake/assets/mdimg/wirefr.jpg) 
 
   ## [Back to Content Tree](#content-tree) 
 
----
----
-## **Screenshot**
----
----
-   ![](Znake/assets/mdimg/scshoot.jpg)
----
+
 ### **Acknowledgements**
 ---
 * **Special Thanks to:**
@@ -267,17 +226,7 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
     * and everyone else who supports me on this Coding journey
 --- 
 ---
----
-## Testing
----
----
-### Issues during codeing
----
-#### On following "Mini Project | Putting It All Together" i run into small issues thta wa sopening my previw like this:
-   ![](mdimg/Screenshot (242).png)
-   #### Fixed by cheking original code and copy paste it to match the origin
-   ![](mdimg/Screenshot (243).png)
-   #### **Still not sure way wasnt working properly (maybe becouse new updates on page it self) [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
+
 
 [Back to Content Tree](#content-tree)
 ### *Daniel Matasic*
