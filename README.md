@@ -60,8 +60,14 @@ Inuitive and easy to understand.
 ---
 * I used website [Wireframe.cc](https://wireframe.cc/ob6oIW) to create a wireframes, with addition of Photoshop ofc.
 
-![](pic/fam.jpeg)  
-
+Home
+![](mdimg/home.jpg)  
+Log in
+![](mdimg/login.jpg)
+New task
+![](mdimg/newtask.jpg)  
+Manage Categories
+![](mdimg/managecategories.jpg)
 
 ## **Surface**
 ---
