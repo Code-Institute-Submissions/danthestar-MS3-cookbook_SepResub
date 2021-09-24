@@ -1,4 +1,4 @@
-# **online cookbook** 
+ # **online cookbook** 
 
 ### Backend Development Milestone Project 3, Project Example Idea 1, online cookbook
 
@@ -39,11 +39,12 @@
 ---
 ### Issues during codeing
 ---
-#### On following "Mini Project | Putting It All Together" i run into small issues thta wa sopening my previw like this:
-   ![](mdimg/Screenshot (242).png)
-   #### Fixed by cheking original code and copy paste it to match the origin
-   ![](mdimg/Screenshot (243).png)
-   #### **Still not sure way wasnt working properly (maybe becouse new updates on page it self) [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
+#### On following "Mini Project | Putting It All Together" i run into small issues that didnt work opening my previw like this:
+   ![](mdimg/ss1.png)
+   
+   #### Fixing issues
+   ![](mdimg/ss2.png)
+   #### **links are working [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
 
 [Back to Content Tree](#content-tree)
 ### *Daniel Matasic*

@@ -114,7 +114,7 @@ def add_task():
         task = {
             "category_name": request.form.get("category_name"),
             "task_name": request.form.get("task_name"),
-            "task_description": request.form.getlist("task_description"),
+            "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]  
@@ -134,7 +134,7 @@ def edit_task(task_id):
         submit = {
             "category_name": request.form.get("category_name"),
             "task_name": request.form.get("task_name"),
-            "task_description": request.form.getlist("task_description"),
+            "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]  
