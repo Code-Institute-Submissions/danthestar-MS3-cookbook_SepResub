@@ -10,7 +10,7 @@ $(document).ready(function(){
       i18n: {
         done: "Select"
       }
-    });
+});
 
     validateMaterializeSelect();
     function validateMaterializeSelect() {

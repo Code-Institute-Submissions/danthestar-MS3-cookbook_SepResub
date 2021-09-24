@@ -14,3 +14,21 @@
     margin: 5px;
     line-height: 42px;
 }
+
+.input-field col s12{
+    padding-bottom: 50px;
+}
+
+.card-panel{
+    /* margin-top: 20%;
+    margin-bottom: 20%; */
+}
+
+.page-footer {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: column;
+   border-bottom: 0px;
+}
+
+/* Media Queries */
