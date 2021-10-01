@@ -1,7 +1,7 @@
 # **MMM** 
 
 
-### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one place.
+### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one "simple" application.
 
 ![](mdimg/2.jpg) 
 
@@ -37,17 +37,25 @@
 ---
 ---
 ### **Idea**
-    In the beginning i wasn't sure what, how or where to start: since code it self was so overwelming and still for me so hard to be abe to produce purly somehting on my own.
+    In the beginning i wasn't sure what, how or where to start: since code it self was so overwelming 
+    and still for me so hard to be abe to produce purly somehting on my own.
 
-    after retrying for 2 time the same taks, i decided to go with mini project = and folowing step by step, changing only stayling of it. the main core is the same as in mini project|Puting It All Togheter.
+    after retrying for 2 time the same taks, i decided to go with mini project = and folowing step by step, 
+    changing only stayling of it. the main core is the same as in mini project|Puting It All Togheter.
 
-    So since my entire reason to start doing coding was to be able to start doing in game   development or application development, i understand know that i need allot of practice in order to master all of the interactions: JavaScript, Python+Flask, MongoDB, Heroku + CRUD functionality.
+    So since my entire reason to start doing coding was to be able to start doing in game   development or 
+    application development, i understand know that i need allot of practice in order to master all of the 
+    interactions: JavaScript, Python+Flask, MongoDB, Heroku + CRUD functionality.
  
-**But since this is my first MS3**, and it way more complicated and needs way more focus i needed a model that i can follow and understand, so thats way i decided to go with mini project|Puting It All Togheter as example.
+**But since this is my first MS3**, and it way more complicated and needs way more focus i needed a model 
+    that i can follow and understand, so thats way i decided to go with mini project|Puting It All Togheter 
+    as example.
       
-    I try my best to not use same names as the source of my code, so by doing that i hope i avoid at least some of related issues confronting forms about violation of use Plagiarism Policy.
+    I try my best to not use same names as the source of my code, so by doing that i hope i avoid at least 
+    some of related issues confronting forms about violation of use Plagiarism Policy.
 
-    Satying that i was still not being able to digress far form core code = it so many tiny options to make a mistake or simply typo mistakes and code isnt working again. 
+    Satying that i was still not being able to digress far form core code = it so many tiny options to make a 
+    mistake or simply typo mistakes and code isnt working again. 
 ## Owner goals
 ---
 #### Goal was to build simple task managment for biger and more active families
