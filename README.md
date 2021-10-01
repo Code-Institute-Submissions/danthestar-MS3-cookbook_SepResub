@@ -1,7 +1,7 @@
 # **MMM** 
 
 
-### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one "simple" application.
+### Backend Development Milestone Project 3, using my own idea MMM = Mom's Micro Manager for the whole family and all the needs of one in a "simple" application.
 
 ![](mdimg/2.jpg) 
 
@@ -19,6 +19,7 @@
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
     - [Surface](#surface)
+    - [Database ](#database )
 - [Features](#features)
   - [Game Page](#game-page)
   - [Features Left to Implement](#features-left-to-implement)
@@ -40,15 +41,15 @@
     In the beginning i wasn't sure what, how or where to start: since code it self was so overwelming 
     and still for me so hard to be abe to produce purly somehting on my own.
 
-    after retrying for 2 time the same taks, i decided to go with mini project = and folowing step by step, 
-    changing only stayling of it. the main core is the same as in mini project|Puting It All Togheter.
+    after retrying for 2 time the same taks, i decided to go with mini project, and folowing step by step, 
+    changing only stayling of it. the main core is the same as in mini project - Puting It All Togheter.
 
     So since my entire reason to start doing coding was to be able to start doing in game   development or 
     application development, i understand know that i need allot of practice in order to master all of the 
     interactions: JavaScript, Python+Flask, MongoDB, Heroku + CRUD functionality.
  
 **But since this is my first MS3**, and it way more complicated and needs way more focus i needed a model 
-    that i can follow and understand, so thats way i decided to go with mini project|Puting It All Togheter 
+    that i can follow and understand, so thats way i decided to go with mini project 'Puting It All Togheter' 
     as example.
       
     I try my best to not use same names as the source of my code, so by doing that i hope i avoid at least 
@@ -58,27 +59,31 @@
     mistake or simply typo mistakes and code isnt working again. 
 ## Owner goals
 ---
-#### Goal was to build simple task managment for biger and more active families
+### Goal was to build simple task management for bigger and more active families that's it usually run by overwhelming moms with tons of each individual's needs and tasks on daily basis
 * To increase the number of participants in MMM's daily tasking by providing 
   a simple, easy to use application.
 * By doing that it easier to see biger picture, of immportance to each member
 * Make easier day to day's taks in evrydays life of grown ups.
 * Better control of your own time and all the task that we all need to perform on daily basis
-* Ps. even tho i started as cookbook, i realized it a bit to complicated so i change it to somehting more simpler = mom's micro managment
+* And by having happy customers who are using app, the distribution it will raise by it self thanks to happy Moms (Moms know the best)
 ---
 ## User goals
 ---
 ### As for user goals, it quite similar to the owners one!
+   * fast and effective task manager for all genders, so it easy and simple to use
    * to have better control over you own time and entire family
-   * more happiness less stressing
+   * simple and easy log in/out options
+   * and simple and easy adding options for individualy tasks for each member
    * more free time and beter organization on using this managment system
-   * the ability to log all family members to MMM, and hence simpler control of all tasks of all members  
-   * each member can make their own acc and add their own tasks to be done
+   * the ability to log all family members to MMM, and simpler control of all tasks and prioritys from all members in the family
+   * each member can make their own acc and add their own tasks cna be put to moms pending list
 
 ## **Structure of the website**
 ---
 The task managment MMM is designed to be minimalistictic, with cleans and simple outlook. 
 Inuitive and easy to understand.
+
+It like a components in a wallet - purpose it not in aesthetics, but in brute function (even tho it can be done way more attractive - but in my case I stick to 'less it more')
 
 ## **Wireframes**
 ---
@@ -120,6 +125,39 @@ Main colours:
 
 * Images will be all credite in [credits](#credits) section.
 
+## **Database**
+---
+
+#### **MongoDB Object format examples**
+  * **Task_manager:**
+    * categories:
+         
+          {"_id":{"$oid":"60fe7a7d613e5116c1f03aa1"},"category_name":"Travel"}
+
+          {"_id":{"$oid":"6102a1e82b30626e060a1f5f"},"category_name":"Vacations"}
+
+          {"_id":{"$oid":"6102a20a2b30626e060a1f60"},"category_name":"Work"}
+
+          {"_id":{"$oid":"6102a2292b30626e060a1f61"},"category_name":"Shopping"}
+
+          {"_id":{"$oid":"6105562fd55e52a9a07566e8"},"category_name":"Family Time"}
+
+          {"_id":{"$oid":"61055666d55e52a9a07566e9"},"category_name":"Nourishment"}
+         
+    * tasks:
+
+          {"_id":{"$oid":"61576a99fe69251ceeb94d41"}"category_name":"Family Time"
+          "task_name":"Sunday picnic "#"task_description":"bringing families together and talking about important topics "
+          "is_urgent":"off"
+          "due_date":"24 October, 2021"
+          "created_by":"admin"}
+
+    * users:
+
+          {"_id":{"$oid":"61042b87bf3c483e7cae7850"},"username":"admin""password":"pbkdf2:sha256:260000$lkEegMRa0Bs2CuwT$5a8552a52d31b7d99c24c8a1763d346b0f650510eeebce2736d90926fd9a7970"}
+
+
+
 [Back to Content Tree](#content-tree)
 
 ---
@@ -131,15 +169,15 @@ Main colours:
 ### The website contains 7 pages. 
 
 #### **Home page** 
-*  page where you see all tasks donr by evrybody in family
+*  page where you see all tasks done by everybody in family
 #### **Profile page**
 *  page where you chekc your profile 
 #### **New Taks page**
 *  page where you can add new task: pick category, add task name, add task description, pick date of task and marks it as important! 
 #### **Manage Categories page**
-*  page where you can add new cathegory for your task page 
+*  page where you can add new category for your task page
 #### **Log Out/Log In page**
-*  page for loging out and in on MMM
+*  page for logging out and in on MMM
 
 
 
