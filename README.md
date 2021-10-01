@@ -1,8 +1,5 @@
-<<<<<<< HEAD
- # **online cookbook** 
-=======
 # **MMM** 
->>>>>>> 463c70a4368466e7806f5eac29e2042e7e58b179
+
 
 ### Backend Development Milestone Project 3, using my own idea MMM: Mom's Micro Manager for the whole family and all the needs of one in one place.
 
