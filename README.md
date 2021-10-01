@@ -238,19 +238,91 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 * ###   My site is published at https://danthestar.github.io/MS3-cookbook/
 * ###  *The live Website can be found [here at heroku.com](https://flask-task-manager-cookbook.herokuapp.com/login)*
 
+## Project construction
+---
+To create this project I followed the mandatory guide provided by Code Institute using the Gitpod Full Template, [this one here](https://github.com/Code-Institute-Org/gitpod-full-template) which is first step in creating any project.
 
+On the page it self we ahve few options: we are only concern with the one that is in the shape of a button and says : **Use this template** button.
+
+After clicking on the button we are moved to a new page, **'Create a new repository from gitpod-full-template'** - page where we put our desire name for Repository name of new project. We leave all others options as it is and click the green button at the bottom = **Create repository form template** to create "repo" form this template.
+
+After creating my repo form template, we get generated new page on our (this case my GitHub account - [danthestar](https://github.com/danthestar)) with all preinstaled tools that we need for the project. And by clicking the green button **GitPod** our GitPod template will be open in a new GitPod = Workspace where we creatur aour projects.
+
+By using Terminal comand we crate all of "folders and subfolders" and all other pages we need to store all of our individualy html codes, as well some of instalations to:
+
+a) some of the frequently used commands:
+
+    touch xy.xy = standard comand for making all new pages: html, py, etc.
+    
+    python3 app.py = to run application/code live in seperate browser or in same instance
+    
+    git status = to chek status of curent files - Whether your current branch is up to date or if there’s anything in the branch that needs to be committed, pushed, or pulled
+
+    git add (file name)= adding single file to next commit comand
+
+    git add -A = adding all the files to commit comand
+
+    git commit -m "commit message" = it a save/chekpoint in coding, allso every time you commit your code changes, you’ll also include a message that briefly describe the changes you made
+
+    git push = it a hard save on your GitHub, it will push all your changes that you saved and commited onto your Repo GitHub
+
+    cleare = it will clear the terminal screen
+
+    pkill -9 python3 = to terminate all terminal instaces
+
+b) some of the one-time commands: 
+
+    pip3 instatall Flask = set ups Flask function ready to be imported
+
+    pip3 freez --local >xy.txt = it tell Heroku which applications and dependencies are required to run our app:
+
+    echo web: python app.py > Procfile = the Procfile is what Heroku looks for to know which file runs the app, and how to run it
+
+
+### **Deployment to Heroku**
+---
+After the "echo web: python app.py > Procfile" comand we can go to Heroku.com, and once we are logged in on your dashboard, we can click button new - and it will pop up 2 new sub options, we are picking: Createnew app
+
+On filing rest of steps we got few options how to connect to our app, by using Heroku CLI or simpler version (automatically) we can pick GitHub version of connection to our repository.
+
+I chose GitHub version, ehre as next step be sure to proper GitHub profile is displayed and then added my repository name
+Click search button, after few seconds after finds my Repo click on button Connect.
+
+Befor we procede we go to few more steps in Setings tab: 
+  * Reveal Config Vars 
+       
+        KEY = IP and VALUE = 0.0.0.0
+    click Add button for next step
+
+        KEY = PORT and VALUE = 5000
+    click Add button again for next one 
+
+        KEY = SECRET_KEY and VALUE = (we copy that form env.py and paste it here)
+    click Add button for next step
+
+        KEY = MONGO_URI and VALUE = (we copy that form MongoDB under clusters/connect/connect to your application and submit the name and the password)  
+    click Add button for next step
+
+        KEY = MONGO_DBNAME and VALUE = (your database name)
+
+    After setting up Config Vars we cna go back to Heroku and press Enable Automatic Deployment button.
+
+    Click on next button under: Deploy Branch wait for few moments (while Heroku is receiving project from GitHub and building it)
+
+    After a min or two you will see a new message with View button that says: 'Your app was succesfully deployed', click on to View button to lunch your app. This will eneble us to automatically update whenever we
+    push changes to the GitHub repository.
 ---
 ---
 ## **Credits**
 ---
-<<<<<<< HEAD
+---
 #### On following "Mini Project | Putting It All Together" i run into small issues that didnt work opening my previw like this:
    ![](mdimg/ss1.png)
    
    #### Fixing issues
    ![](mdimg/ss2.png)
    #### **links are working [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
-=======
+
 ---
    
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
@@ -267,7 +339,7 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 ### **Acknowledgements**
 ---
 * **Special Thanks to:**
-    * my Mentor - **Adegbenga Adeye**.
+    * my new Mentor - **Daisy Mc Girr**.
     * all the **Tutor Assistance** 
     * **HUGE** thanks to all girls and guys in the **[Slack Community](https://slack.com/intl/en-ie/)** for providing response for each of my query.
     * **Student Care** for constant care and providers of usuefull additional information out side of follow lectures
@@ -276,8 +348,6 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
     * and everyone else who supports me on this Coding journey
 --- 
 ---
-
->>>>>>> 463c70a4368466e7806f5eac29e2042e7e58b179
 
 [Back to Content Tree](#content-tree)
 ### *Daniel Matasic*
