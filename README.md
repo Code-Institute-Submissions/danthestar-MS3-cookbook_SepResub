@@ -154,7 +154,8 @@ Main colours:
 
     * users:
 
-          {"_id":{"$oid":"61042b87bf3c483e7cae7850"},"username":"admin""password":"pbkdf2:sha256:260000$lkEegMRa0Bs2CuwT$5a8552a52d31b7d99c24c8a1763d346b0f650510eeebce2736d90926fd9a7970"}
+          {"_id":{"$oid":"61042b87bf3c483e7cae7850"},"username":"admin"
+          "password":"pbkdf2:sha256:260000$lkEegMRa0Bs2CuwT$5a8552a52d31b7d99c24c8a1763d346b0f650510eeebce2736d90926fd9a7970"}
 
 
 
@@ -166,7 +167,19 @@ Main colours:
 ---
 ---
 
-### The website contains 7 pages. 
+### Build as Responsive app with MongoDB data (log in/out) 
+
+#### **as Admin - Mom** 
+*  As admin, you have access to all pages, and control over them, as well as making new category in each "New Task" with different needs for your Family
+*  It build-in mind that one person keep all task in chek, like in real life.
+*  As a admin you have options do edit or delete other tasks made by other users - in tihs case family members, when they are completed.
+
+#### **as User - rest of family members** 
+*  As User you have acces to all Home, Profile, New Taks and Log in/out options pages. 
+*  Control over making new categorys in each "New Task" page, editing it and deliting it after we are done with same task.
+*  As a User you dont have options do edit or delete other tasks made by other users - in tihs case family members (only Admin got have that options!)
+*  As well as a user you can also ask your "Admin" or Mother/Father in rl. to make some new tasks that suit your needs. Keep in mind this is the only task manager to keeps track of all needs and activities in the family, it is not a replacement for not talking to your family members = it is an application that keep tracks of needs that you show digitaly to those who take care of you in those!
+### The website contains 5 pages.
 
 #### **Home page** 
 *  page where you see all tasks done by everybody in family
@@ -175,16 +188,16 @@ Main colours:
 #### **New Taks page**
 *  page where you can add new task: pick category, add task name, add task description, pick date of task and marks it as important! 
 #### **Manage Categories page**
-*  page where you can add new category for your task page
+*  page where you can add new category for your task page (only as Admin = in most cases that's Mom)
 #### **Log Out/Log In page**
-*  page for logging out and in on MMM
+*  page for logging out and in on MMM using MongoDB databases to store information and user login/profile.
 
 
 
 ### **Features Left to Implement**
 ---
 
-  * add more info to profile page 
+  * add more info to each profile page (photo and some additional "numbers" like axe, gender, date of birth, etc )
   * make it more apealing to generale taste - visualy speaking
   * adding gps navigation/location for each user
 ---
@@ -265,7 +278,27 @@ Main colours:
     Main issue is stil typo mistakes   
     Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system.
 
-  [Back to Content Tree](#content-tree)
+ ### On following "Mini Project | Putting It All Together" i run into small issues that didnt work opening my previw like this:
+
+
+   ![](mdimg/ss1.png)
+   
+   #### Fixing issues
+   ![](mdimg/ss2.png)
+   #### **links are working [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
+
+---
+   
+####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+
+* **jpg files** all my photos are Photoshoped after being downloaded form free source
+
+    ![](mdimg/2.jpg),
+          
+
+
+[Back to Content Tree](#content-tree)
 
 ---
 ---
@@ -354,22 +387,9 @@ Befor we procede we go to few more steps in Setings tab:
 ## **Credits**
 ---
 ---
-#### On following "Mini Project | Putting It All Together" i run into small issues that didnt work opening my previw like this:
-   ![](mdimg/ss1.png)
-   
-   #### Fixing issues
-   ![](mdimg/ss2.png)
-   #### **links are working [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
 
----
-   
-####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+#### 
 
-
-* **jpg files** all my photos are Photoshoped after being downloaded form free source
-
-    ![](mdimg/2.jpg),
-          
 
   ## [Back to Content Tree](#content-tree) 
 
