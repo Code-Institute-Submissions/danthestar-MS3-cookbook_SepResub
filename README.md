@@ -171,15 +171,16 @@ Main colours:
 
 #### **as Admin - Mom** 
 *  As admin, you have access to all pages, and control over them, as well as making new category in each "New Task" with different needs for your Family
-*  It build-in mind that one person keep all task in chek, like in real life.
 *  As a admin you have options do edit or delete other tasks made by other users - in tihs case family members, when they are completed.
+*  It build-in mind that one person keep all task in chek, like in real life: only that this way you can access all family members task on any second without bother to ask/call them each individually. Any you have all thta info with you on your smartphone!
+
 
 #### **as User - rest of family members** 
 *  As User you have acces to all Home, Profile, New Taks and Log in/out options pages. 
 *  Control over making new categorys in each "New Task" page, editing it and deliting it after we are done with same task.
 *  As a User you dont have options do edit or delete other tasks made by other users - in tihs case family members (only Admin got have that options!)
 *  As well as a user you can also ask your "Admin" or Mother/Father in rl. to make some new tasks that suit your needs. Keep in mind this is the only task manager to keeps track of all needs and activities in the family, it is not a replacement for not talking to your family members = it is an application that keep tracks of needs that you show digitaly to those who take care of you in those!
-### The website contains 5 pages.
+### The website contains 6 main pages.
 
 #### **Home page** 
 *  page where you see all tasks done by everybody in family
@@ -189,10 +190,46 @@ Main colours:
 *  page where you can add new task: pick category, add task name, add task description, pick date of task and marks it as important! 
 #### **Manage Categories page**
 *  page where you can add new category for your task page (only as Admin = in most cases that's Mom)
-#### **Log Out/Log In page**
+#### **Log Out and Log In page**
 *  page for logging out and in on MMM using MongoDB databases to store information and user login/profile.
 
+### **Execution and Styling**
 
+* A header and footer are visible constantly on all pages and on all platforms, with a responsive layout on all devices.
+* Header contains all mandatory options as: 
+     
+       1. Logo "MMM" button works as Home button as well
+       2. Home button
+       3. Profile   
+       4. New Task
+       5. Manage Categories
+       6. Log In/Log out
+* On a responsive mode view: under 995px width, all header buttons are collapsable into "hamburger" mode on right side of pannel, while MMM logo moves in the middle of the screen.  
+
+* Footer contains options as: 
+     
+       1. Home button
+       2. Log In/Log out
+       3. In addition, it can be added/implemented all social media links for each member
+* Footer On a responsive mode view: under 995px width stays the same.
+
+* The body or middle part of it changes correspondingly to the page you are on:
+    
+      Home page display search options and reset option as well with all tasks made by admin or other users.
+      Having expanding "arrow" to check in details the tasks.
+      Allong with Edit and Done buttons.
+
+      Profile page contains only the Name of the user at moment.
+      But it can be upgraded to way more additional information on each user. For example: foto, link to important pages/sites, location, contact numbers, etc.
+
+      New tasks contain all the categories needed for a clean and precise flow of information, such as: Category, Task Name, Task Description, Date, and Urgent slider-button for important tasks.
+      With a 'Add task +' button on the bottom of the section 
+
+      Manage Category page is available only for Admin users and contains: 'Add Category' button responsible for creating all of the categories = Family Time, Nourishment, Shopping, Travel, Vacations, Work, etc.
+      And each of those created branches is shown independently with descriptions and options to Edit or Delete them as you see fit.
+
+      Log in/Log Out page are standard with pop up message that informs you on taks done - sign up or log out.
+      In addition we have register button as well, where you register your account for future usage of the MMM application
 
 ### **Features Left to Implement**
 ---
