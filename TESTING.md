@@ -62,9 +62,9 @@ JS Code runn trough [jshint Validator](https://jshint.com/), PASS obtaine after 
 
  ![](mdimg/js1.jpg)
 
-**Pass**  by fixing 
+**Better** by changing some parameters
  
- ![](mdimg/.jpg)
+ ![](mdimg/js2.jpg)
 
 [Back to Testing Tree](#testing-tree)
 
@@ -76,8 +76,9 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 
  ![](mdimg/pyton1.jpg)
 
-**Pass**  by fixing
+**Pass**  by fixing blank lines, and since it seems that "trailing whitespace" is not mistake in first place
 
+![](mdimg/pyton2.jpg)
 ---
 ---
 ### **Compatibility testing**
