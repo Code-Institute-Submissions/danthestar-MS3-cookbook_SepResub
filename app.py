@@ -32,7 +32,6 @@ def search():
     return render_template("tasks.html", tasks=tasks)
 
 
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -118,14 +117,14 @@ def add_task():
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]  
-        }
+        }      
         mongo.db.tasks.insert_one(task)
         flash("Taks Succesfully Added")
         return redirect(url_for("get_tasks"))
 
-
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_task.html", categories=categories)
+
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
 def edit_task(task_id):
@@ -146,16 +145,19 @@ def edit_task(task_id):
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_task.html", task=task, categories=categories)
 
+
 @app.route("/delete_task/<task_id>")
 def delete_task(task_id):
     mongo.db.tasks.remove({"_id": ObjectId(task_id)})
     flash("Task Successfully Deleted")
     return redirect(url_for("get_tasks"))
 
+
 @app.route("/get_categories")
 def get_categories():
     categories = list(mongo.db.categories.find().sort("category_name", 1))
     return render_template("categories.html", categories=categories)
+
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
@@ -165,9 +167,9 @@ def add_category():
         }
         mongo.db.categories.insert_one(category)
         flash("New Category Added!")
-        return redirect(url_for("get_categories"))
-       
+        return redirect(url_for("get_categories"))      
     return render_template("add_category.html")
+
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
@@ -182,6 +184,7 @@ def edit_category(category_id):
     category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
     return render_template("edit_category.html", category=category)
 
+
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
@@ -190,6 +193,5 @@ def delete_category(category_id):
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get("PORT")),
-            debug=True)   
-            # Make sure to update this to debug=False prior to actual deployment or project submission. :D
+            port=int(os.environ.get("PORT")),    
+            debug=True)  # Make sure to update this form True to False       

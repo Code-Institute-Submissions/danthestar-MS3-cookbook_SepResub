@@ -21,12 +21,11 @@
     - [Surface](#surface)
     - [Database ](#database )
 - [Features](#features)
-  - [Game Page](#game-page)
+  - [Layout](#layout)
   - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
-    - [Issues during codeing](#issues-during-coding)
-    - [Compatibility testing](#compatibility-testing)
+    - [Issues during coding](#issues-during-coding)
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -146,18 +145,65 @@ Main colours:
          
     * tasks:
 
-          {"_id":{"$oid":"61576a99fe69251ceeb94d41"}"category_name":"Family Time"
-          "task_name":"Sunday picnic "#"task_description":"bringing families together and talking about important topics "
+          {"_id":{"$oid":"61576a99fe69251ceeb94d41"}
+          "category_name":"Family Time"
+          "task_name":"Sunday picnic "
+          "task_description":"bringing families together and talking about important topics "
           "is_urgent":"off"
           "due_date":"24 October, 2021"
           "created_by":"admin"}
 
+          {"_id":{"$oid":"61599aa71df4000432bf699b"}
+          "category_name":"Travel"
+          "task_name":"Brussels","task_description":"short trip to Belgium"
+          "is_urgent":"on"
+          "due_date":"24 November, 2021"
+          "created_by":"david"}
+
+          {"_id":{"$oid":"61599b301df4000432bf699c"}
+          "category_name":"Shopping"
+          "task_name":"SuperDry"
+          "task_description":"new clothes and footwear for the trip "
+          "is_urgent":"on"
+          "due_date":"19 November, 2021"
+          "created_by":"david"}
+
+          {"_id":{"$oid":"61599c791df4000432bf699d"}
+          "category_name":"Nourishment"
+          "task_name":"Gym drink"
+          "task_description":"bananas, walnuts, honey, hazelnuts, apple, cinnamon, oats"
+          "is_urgent":"on"
+          "due_date":"-"
+          "created_by":"marta"}
+
+          {"_id":{"$oid":"61599ec71df4000432bf69a0"}
+          "category_name":"Vacations"
+          "task_name":"Free Climbing"
+          "task_description":"free climbing in the gorges next to the mountain hut (10days :D)","is_urgent":"off"
+          "due_date":"23 December, 2021"
+          "created_by":"suzane"}
+
     * users:
 
-          {"_id":{"$oid":"61042b87bf3c483e7cae7850"},"username":"admin"
-          "password":"pbkdf2:sha256:260000$lkEegMRa0Bs2CuwT$5a8552a52d31b7d99c24c8a1763d346b0f650510eeebce2736d90926fd9a7970"}
+          {"_id":{"$oid":"61042b87bf3c483e7cae7850"}
+          "username":"admin"
+          "password":"pbkdf2:sha256:260000$lkEegMRa0Bs2CuwT$5a8552a52d31b7
+          d99c24c8a1763d346b0f650510eeebce2736d90926fd9a7970"}
 
+          {"_id":{"$oid":"61066c3a4f7b86b21ef3ef2b"}
+          "username":"marta"
+          "password":"pbkdf2:sha256:260000$H0YZeMTXiVfcrUiK$c0854f8fe74c2d2
+          e3fc1a2b8f181aa3bbf46641f46b7bd791b92ea12327635ef"}
 
+          {"_id":{"$oid":"611694a68f3fe736a88a58d6"}
+          "username":"david"
+          "password":"pbkdf2:sha256:260000$2onU3PqwGwjQHfHy$192ba
+          055a026cef28d98d66015265a5d0e84f191fb1354594cc66b2a6c56743c"}
+
+          {"_id":{"$oid":"61599d811df4000432bf699f"}
+          "username":"suzane"
+          "password":"pbkdf2:sha256:260000$kDFxNJRC3o8AEcx5$
+          9b87f08bf691cd1770759ee772014e69a0457bf9acf70cc568f3c3dace36cf8c"}
 
 [Back to Content Tree](#content-tree)
 
@@ -167,6 +213,8 @@ Main colours:
 ---
 ---
 
+### **Layout**
+---
 ### Build as Responsive app with MongoDB data (log in/out) 
 
 #### **as Admin - Mom** 
@@ -195,7 +243,8 @@ Main colours:
 
 ### **Execution and Styling**
 
-* A header and footer are visible constantly on all pages and on all platforms, with a responsive layout on all devices.
+* A header and footer are visible constantly on all pages and on all platforms, with a responsive layout 
+on all devices.
 * Header contains all mandatory options as: 
      
        1. Logo "MMM" button works as Home button as well
@@ -204,7 +253,8 @@ Main colours:
        4. New Task
        5. Manage Categories
        6. Log In/Log out
-* On a responsive mode view: under 995px width, all header buttons are collapsable into "hamburger" mode on right side of pannel, while MMM logo moves in the middle of the screen.  
+* On a responsive mode view: under 995px width, all header buttons are collapsable into "hamburger" mode on 
+right side of pannel, while MMM logo moves in the middle of the screen.  
 
 * Footer contains options as: 
      
@@ -220,23 +270,28 @@ Main colours:
       Allong with Edit and Done buttons.
 
       Profile page contains only the Name of the user at moment.
-      But it can be upgraded to way more additional information on each user. For example: foto, link to important pages/sites, location, contact numbers, etc.
+      But it can be upgraded to way more additional information on each user. For example: foto, link to 
+      important pages/sites, location, contact numbers, etc.
 
-      New tasks contain all the categories needed for a clean and precise flow of information, such as: Category, Task Name, Task Description, Date, and Urgent slider-button for important tasks.
+      New tasks contain all the categories needed for a clean and precise flow of information, such as: Category, 
+      Task Name, Task Description, Date, and Urgent slider-button for important tasks.
       With a 'Add task +' button on the bottom of the section 
 
-      Manage Category page is available only for Admin users and contains: 'Add Category' button responsible for creating all of the categories = Family Time, Nourishment, Shopping, Travel, Vacations, Work, etc.
-      And each of those created branches is shown independently with descriptions and options to Edit or Delete them as you see fit.
+      Manage Category page is available only for Admin users and contains: 'Add Category' button responsible 
+      for creating all of the categories = Family Time, Nourishment, Shopping, Travel, Vacations, Work, etc.
+      And each of those created branches is shown independently with descriptions and options to Edit or Delete 
+      them as you see fit.
 
       Log in/Log Out page are standard with pop up message that informs you on taks done - sign up or log out.
-      In addition we have register button as well, where you register your account for future usage of the MMM application
+      In addition we have register button as well, where you register your account for future usage of the 
+      MMM application
 
 ### **Features Left to Implement**
 ---
 
-  * add more info to each profile page (photo and some additional "numbers" like axe, gender, date of birth, etc )
+  * add more info to each profile page (photo and some additional "numbers" like age, gender, date of birth, photo, contact information, links, etc )
   * make it more apealing to generale taste - visualy speaking
-  * adding gps navigation/location for each user
+  * adding GPS navigation/location for each user,adding sound or vibrating options for each changes or update on tasks/requests
 ---
 ---
 ## **Technologies Used**
@@ -285,9 +340,19 @@ Main colours:
 ---
 ---
 
-### **Compatibility testing**
-    Works with no bugs on all my laptops and smartphones in my family and beyond, 
-    although we all have a samsung smartphone (some version and type)
+**HTML Code runn trough [W3C HTML Validator](https://validator.w3.org/#validate_by_uri)**
+
+**CSS Code runn trough [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+
+**JavaScript Code runn trough [jshint Validator](https://jshint.com/)**
+
+**Python Code runn trough [PEP8 Validator](http://pep8online.com/)**
+
+### **Issues during coding**
+---
+
+    Main general issue is still typo mistakes. 
+    Some of them i was trying to figure it out, how is everything behave in inspect view.
 
 ### **Performance testing**
 
@@ -307,33 +372,11 @@ Main colours:
   ![](mdimg/light1improv2.jpg)
 
     Improvment in SEO department after including <meta name="description" content="xyz"> and <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-### **Issues during site development**
----
-
-    Main issue is stil typo mistakes   
-    Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system.
-
- ### On following "Mini Project | Putting It All Together" i run into small issues that didnt work opening my previw like this:
-
-
-   ![](mdimg/ss1.png)
    
-   #### Fixing issues
-   ![](mdimg/ss2.png)
-   #### **links are working [< cdnjs >](https://cdnjs.com/libraries/font-awesome)**
 
----
-   
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-
-* **jpg files** all my photos are Photoshoped after being downloaded form free source
-
-    ![](mdimg/2.jpg),
-          
-
+### **Full test results can be found [here](TESTING.md)**
 
 [Back to Content Tree](#content-tree)
 
