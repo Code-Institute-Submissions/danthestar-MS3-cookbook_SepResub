@@ -21,6 +21,7 @@
        - [Microsoft Edge](#microsoft-edge)
 - [General testing](#general-testing)
   - [Navigation](#navigation)
+  - [Page Load](#page-load)
 
 
 ---
@@ -147,7 +148,44 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 
 ### **Navigation**
 ---
-Navigation part of testing 
+*Navigation part of testing will be concerned about all pages and how are they working.
+On opening application we have Working Home, Log In and Register option is in the header. The addition is searching tab, and reset of the same search tab.*
+
+
+    All pages are working accordingly to the blueprint. 
+    As Admin user on all platforms (Edge, Google Chrome, Firefox and Opera) there is no issues. 
+    Same goes for Users, everything is working as planned.
+    Home / Profile / New Taks / Manage Categories
+
+#### **Page Load**
+---
+Log In button, Sign Out or Register options are working with no issues.
+
+    By clicking on Log In button we will be transfred to Log In / Register options.
+    On logging in we will be automatically moved to a Profile page, from where we can navigate to:
+
+**Home** 
+
+    - we have visual data of all tasks made by all family members
+    
+**Profile** 
+    
+    - still stays the profile
+
+**New Task** 
+     
+    - opens new Html with functions of creating  a task: having options as Category, Task Name, Task Description, Date and Urgent slider (in case it important tasks and it can not be passed).
+
+**Manage Categories**
+    
+    - option is available only for Admin users, since he is the one that will be managing all the needs.
+    It allows Admin users to create new categories for all future adventures of the Family. 
+
+**Log Out**
+
+     - on log out in we will be automatically moved to a Log In/Register page.
+
+[Back to Testing Tree](#testing-tree)
 
 ### *Daniel Matasic*
 
