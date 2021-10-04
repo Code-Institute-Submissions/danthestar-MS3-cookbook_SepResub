@@ -116,8 +116,8 @@ def add_task():
             "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
-            "created_by": session["user"]  
-        }      
+            "created_by": session["user"]
+            }
         mongo.db.tasks.insert_one(task)
         flash("Taks Succesfully Added")
         return redirect(url_for("get_tasks"))
@@ -136,7 +136,7 @@ def edit_task(task_id):
             "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
-            "created_by": session["user"] 
+            "created_by": session["user"]
         }
         mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
         flash("Taks Succesfully Updated")
@@ -167,7 +167,7 @@ def add_category():
         }
         mongo.db.categories.insert_one(category)
         flash("New Category Added!")
-        return redirect(url_for("get_categories"))      
+        return redirect(url_for("get_categories"))
     return render_template("add_category.html")
 
 
@@ -189,9 +189,8 @@ def edit_category(category_id):
 def delete_category(category_id):
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
     flash("Category Successfully Deleted")
-    return redirect(url_for("get_categories"))                  
-
+    return redirect(url_for("get_categories"))
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get("PORT")),    
-            debug=True)  # Make sure to update this form True to False       
+            port=int(os.environ.get("PORT")),
+            debug=False)

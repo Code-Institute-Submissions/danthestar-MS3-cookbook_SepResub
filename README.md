@@ -378,7 +378,8 @@ right side of pannel, while MMM logo moves in the middle of the screen.
 
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-### **Full test results**, **are here [here](TESTING.md)**
+### **Full test results**, 
+### **[are here](TESTING.md)**
 
 
 [Back to Content Tree](#content-tree)

@@ -24,6 +24,7 @@
   - [Page Load](#page-load)
 
 
+### **[Back to previous page](README.md)**
 ---
 ---
 ### **Testing**
@@ -48,14 +49,17 @@ And all the other examples that are listed below will have the same warning (so 
 **Log In page** 
  ![](mdimg/1login.jpg)
 
-**Add  page** 
- ![](mdimg/1login.jpg)
+**Home page** 
+ ![](mdimg/1homepage.jpg)
 
-**Log In page** 
- ![](mdimg/1login.jpg) 
+**New Task page** 
+ ![](mdimg/1addtask.jpg) 
 
-**Log In page** 
- ![](mdimg/1login.jpg)
+**Manage Categories page** 
+ ![](mdimg/1getcategories.jpg)
+
+**Log Out page** 
+ ![](mdimg/1logout.jpg)
 
 [Back to Testing Tree](#testing-tree)
 
@@ -64,12 +68,10 @@ And all the other examples that are listed below will have the same warning (so 
 Css Code runn trough [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options), PASS obtaine after fixing error.
 
 **Error**
-
  ![](mdimg/w3c-error.jpg)
 
 **Pass**  by fixing missing px on 2px: line
- 
- ![](mdimg/wc3-pass.jpg)
+  ![](mdimg/wc3-pass.jpg)
 
  [Back to Testing Tree](#testing-tree)
 
@@ -78,12 +80,10 @@ Css Code runn trough [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#va
 JS Code runn trough [jshint Validator](https://jshint.com/), PASS obtaine after fixing error.
 
 **Error**
-
  ![](mdimg/js1.jpg)
 
 **Better** by changing some parameters
- 
- ![](mdimg/js2.jpg)
+  ![](mdimg/js2.jpg)
 
 [Back to Testing Tree](#testing-tree)
 
@@ -92,11 +92,9 @@ JS Code runn trough [jshint Validator](https://jshint.com/), PASS obtaine after 
 Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine after fixing error.
 
 **Error**
-
  ![](mdimg/pyton1.jpg)
 
-**Pass**  by fixing blank lines, and since it seems that "trailing whitespace" is not mistake in first place
-
+**Pass**  by fixing blank lines, and removing back space on the end of the lines.
 ![](mdimg/pyton2.jpg)
 [Back to Testing Tree](#testing-tree)
 
@@ -143,8 +141,10 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
     "Hamburger" menu is working properly in responsive mode accordingly to the intend.
 **Big size screen**
 ![](mdimg/gc1.png)
+
 **Medium size screen**
 ![](mdimg/gc2.png)
+
 **Smartphone size screen**
 ![](mdimg/gc3.png)
 
@@ -156,8 +156,10 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
     "Hamburger" menu is working properly in responsive mode accordingly to the intend.
 **Big size screen**
 ![](mdimg/me1.png)
+
 **Medium size screen**
 ![](mdimg/me2.png)
+
 **Smartphone size screen**
 ![](mdimg/me3.png)
 
@@ -206,7 +208,9 @@ Log In button, Sign Out or Register options are working with no issues.
 
 **Log Out**
 
-     - on log out in we will be automatically moved to a Log In/Register page.
+     - on log out/in we will be automatically moved to a Log In/Register page.
+
+### **[Back to previous page](README.md)**
 
 [Back to Testing Tree](#testing-tree)
 
