@@ -15,9 +15,12 @@
     - [JS](#js)
     - [Python](#python)
     - [Compatibility testing](#compatibility-testing)
-    
-- [Features](#features)
-  - [Layout](#layout)
+       - [Mozilla Firefox](#mozilla-firefox)
+       - [Opera](#opera)
+       - [Google Chrome](#google-chrome)
+       - [Microsoft Edge](#microsoft-edge)
+- [General testing](#general-testing)
+  - [Navigation](#navigation)
 
 
 ---
@@ -79,16 +82,72 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 **Pass**  by fixing blank lines, and since it seems that "trailing whitespace" is not mistake in first place
 
 ![](mdimg/pyton2.jpg)
+[Back to Testing Tree](#testing-tree)
+
 ---
 ---
 ### **Compatibility testing**
 ---
 ---
 
-    Works with no bugs on all my laptops and smartphones in my family and beyond, 
-    although we all have a samsung smartphone (some version and type)
+### **Mozilla Firefox**
+    Works as intended on Mozilla Firefox in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+**Medium size screen**
+![](mdimg/mz1.png)
+
+**Big size screen**
+![](mdimg/mz2.png)
+
+**Smartphone size screen**
+![](mdimg/mz3.png)
 
 [Back to Testing Tree](#testing-tree)
+
+### **Opera**
+    Works as intended on Opera in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+
+**Big size screen**
+![](mdimg/op1.png)
+
+**Medium size screen**
+![](mdimg/op2.png)
+
+**Smartphone size screen**
+![](mdimg/op3.png)
+
+[Back to Testing Tree](#testing-tree)
+
+### **Google Chrome**
+    Works as intended on Google Chrome in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+**Big size screen**
+![](mdimg/gc1.png)
+**Medium size screen**
+![](mdimg/gc2.png)
+**Smartphone size screen**
+![](mdimg/gc3.png)
+
+[Back to Testing Tree](#testing-tree)
+
+### **Microsoft Edge**
+    Works as intended on Microsoft Edge in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+**Big size screen**
+![](mdimg/me1.png)
+**Medium size screen**
+![](mdimg/me2.png)
+**Smartphone size screen**
+![](mdimg/me3.png)
+
+[Back to Testing Tree](#testing-tree)
+
+---
+---
+### **General testing**
+---
+---
+
+### **Navigation**
+---
+Navigation part of testing 
 
 ### *Daniel Matasic*
 

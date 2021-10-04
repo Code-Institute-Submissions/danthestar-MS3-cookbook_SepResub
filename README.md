@@ -27,6 +27,7 @@
 - [Testing](#testing)
     - [Issues during coding](#issues-during-coding)
     - [Performance testing](#performance-testing)
+    - [Full test results can be found](#full-test-results-can-be-found)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Acknowledgements](#acknowledgements)
@@ -122,13 +123,14 @@ Main colours:
    
 ### Images
 
-* Images will be all credite in [credits](#credits) section.
+* Images are all taken as screenshots and refined in photoshop
 
 ## **Database**
 ---
 
 #### **MongoDB Object format examples**
   * **Task_manager:**
+
     * categories:
          
           {"_id":{"$oid":"60fe7a7d613e5116c1f03aa1"},"category_name":"Travel"}
@@ -215,7 +217,7 @@ Main colours:
 
 ### **Layout**
 ---
-### Build as Responsive app with MongoDB data (log in/out) 
+### Build as Responsive app with MongoDB data, log in/out
 
 #### **as Admin - Mom** 
 *  As admin, you have access to all pages, and control over them, as well as making new category in each "New Task" with different needs for your Family
