@@ -32,15 +32,30 @@
 
 ### **HTML**
 ---
-Css Code runn trough [W3C HTML Validator](https://validator.w3.org/#validate_by_input), PASS obtaine after fixing error.
+HTML Code runn trough [W3C HTML Validator](https://validator.w3.org/#validate_by_input), PASS obtaine after fixing error.
 
-**Error**
+**Error;** this is a warning not an error, the reason it shows is because if no message is rendered, then the heading is not displayed. 
+And all the other examples that are listed below will have the same warning (so I will not include this text on each of them)
 
- ![](mdimg/.jpg)
+**Home page - befor log in**
+ ![](mdimg/1hpbeforelogin.jpg)
 
-**Pass**  by fixing 
- 
- ![](mdimg/.jpg)
+**By** trying to Consider using h2-h6 elements i was getting same results, same as completle removing "section" part, or adding h-element to section, or adding section to h-element.
+
+**'Username already exists' message**
+ ![](mdimg/1usernameArdExist.jpg)
+
+**Log In page** 
+ ![](mdimg/1login.jpg)
+
+**Add  page** 
+ ![](mdimg/1login.jpg)
+
+**Log In page** 
+ ![](mdimg/1login.jpg) 
+
+**Log In page** 
+ ![](mdimg/1login.jpg)
 
 [Back to Testing Tree](#testing-tree)
 
@@ -92,7 +107,9 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 ---
 
 ### **Mozilla Firefox**
-    Works as intended on Mozilla Firefox in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+    Works as intended on Mozilla Firefox in big screen, tablet screen and phone screen.
+    No misplacing of elements or overlapping them during testing in responsive mode 
+    "Hamburger" menu is working properly in responsive mode accordingly to the intend. 
 **Medium size screen**
 ![](mdimg/mz1.png)
 
@@ -105,7 +122,9 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 [Back to Testing Tree](#testing-tree)
 
 ### **Opera**
-    Works as intended on Opera in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+    Works as intended on Opera in big screen, tablet screen and phone screen.
+    No misplacing of elements or overlapping them during testing in responsive mode 
+    "Hamburger" menu is working properly in responsive mode accordingly to the intend.
 
 **Big size screen**
 ![](mdimg/op1.png)
@@ -119,7 +138,9 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 [Back to Testing Tree](#testing-tree)
 
 ### **Google Chrome**
-    Works as intended on Google Chrome in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+    Works as intended on Google Chrome in big screen, tablet screen and phone screen.
+    No misplacing of elements or overlapping them during testing in responsive mode 
+    "Hamburger" menu is working properly in responsive mode accordingly to the intend.
 **Big size screen**
 ![](mdimg/gc1.png)
 **Medium size screen**
@@ -130,7 +151,9 @@ Python Code runn trough [PEP8 Validator](http://pep8online.com/), PASS obtaine a
 [Back to Testing Tree](#testing-tree)
 
 ### **Microsoft Edge**
-    Works as intended on Microsoft Edge in big screen, tablet mode and phone mode so we can test "hamburger" menu. No issues at all.
+    Works as intended on Microsoft Edge in big screen, tablet screen and phone screen.
+    No misplacing of elements or overlapping them during testing in responsive mode 
+    "Hamburger" menu is working properly in responsive mode accordingly to the intend.
 **Big size screen**
 ![](mdimg/me1.png)
 **Medium size screen**
@@ -179,7 +202,7 @@ Log In button, Sign Out or Register options are working with no issues.
 **Manage Categories**
     
     - option is available only for Admin users, since he is the one that will be managing all the needs.
-    It allows Admin users to create new categories for all future adventures of the Family. 
+    It allows Admin users to create new categories for all future needs of the Family. 
 
 **Log Out**
 

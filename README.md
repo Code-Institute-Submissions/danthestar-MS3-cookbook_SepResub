@@ -27,7 +27,7 @@
 - [Testing](#testing)
     - [Issues during coding](#issues-during-coding)
     - [Performance testing](#performance-testing)
-    - [Full test results can be found](#full-test-results-can-be-found)
+    - [Full test results](#full-test-results)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Acknowledgements](#acknowledgements)
@@ -378,7 +378,8 @@ right side of pannel, while MMM logo moves in the middle of the screen.
 
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-### **Full test results can be found [here](TESTING.md)**
+### **Full test results**, **are here [here](TESTING.md)**
+
 
 [Back to Content Tree](#content-tree)
 
